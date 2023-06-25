@@ -3,6 +3,8 @@ import Login from './pages/Login';
 import ForgotPassword from './pages/ForgotPassword';
 import Register from './pages/Register';
 import Parentesco from './pages/apoderados/Parentesco';
+import Apoderado from './pages/apoderados/Apoderado';
+
 import {
   BrowserRouter,
   Routes,
@@ -18,6 +20,7 @@ function App() {
         <Route path="/forgotpassword" element={<ForgotPassword/>}/>
         <Route path="/register" element={<Register/>}/>
         <Route path="/parentesco" element={<Parentesco/>}/>
+        <Route path="/apoderado" element={<Apoderado/>}/>
       </Routes>
     </BrowserRouter>
   );

@@ -8,8 +8,9 @@ function SideBar(){
                             <div className="nav">
                                 <div className="sb-sidenav-menu-heading">MODULOS</div>
                                 <a className="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
-                                    <div className="sb-nav-link-icon"><i className="fas fa-columns"></i></div>
-                                    <Link to="/parentesco">Parentescos</Link>
+                                    <div className="sb-nav-link-icon"><i className="fas fa-columns"><Link to="/parentesco">Parentescos</Link><br/></i></div>
+                                    
+                                    <Link to="/apoderado">Apoderados</Link>
                                     <div className="sb-sidenav-collapse-arrow"><i className="fas fa-angle-down"></i></div>
                                 </a>
                             </div>
